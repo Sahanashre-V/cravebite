@@ -1,4 +1,5 @@
 "use client";
+import axios from "axios";
 
 export default function Home() {
   async function handleSubmit(event) {
@@ -29,6 +30,13 @@ export default function Home() {
     }
   }
 
+  // const handleClick = () => {
+  //   const updateData = axios.put("/api/update",{
+  //     headers: {"Content-Type": "application/json"},
+  //     params: 
+  //   })
+  // }
+
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <h1 className="text-2xl font-bold">Student Management</h1>
@@ -54,6 +62,7 @@ export default function Home() {
           Add Student
         </button>
       </form>
+      {/* <button onClick={handleClick}>Edit</button> */}
     </div>
   );
 }
