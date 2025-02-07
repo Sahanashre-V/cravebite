@@ -12,7 +12,7 @@
 - ### User reviews and ratings
 
 ## Technologies used⚡: 
-### Next.js, Node.js, MongoDB, Web Scraping
+### Next.js.
 
 ## Developed by✨:
 ### Sahanashre, Poshika mangai.
