@@ -15,4 +15,4 @@
 ### Next.js.
 
 ## Developed by✨:
-### Sahanashre, Poshika mangai.
+### Sahanashre
